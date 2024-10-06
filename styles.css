@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para la franja azul superior */
+  .top-bar {
+    background-color: #1B2B85;
+    color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    height: 60px;
+    margin-right: 20px;
+    position: relative; /* Dentro de la franja azul */
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  /* Sección principal con imagen y botón */
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px; /* Espacio debajo de la franja azul */
+  }
+  
+  .board-image {
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 0px;  /* Eliminado o reducido para acercar el botón */
+  }
+  
+  .start-button {
+    background-color: #1B2B85;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: -10px;  /* Negativo para superponer ligeramente */
+  }
+  
+  
+  .start-button:hover {
+    background-color: #314E9A;
+  }
+  
