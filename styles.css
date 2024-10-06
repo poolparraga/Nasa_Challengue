@@ -58,3 +58,8 @@ h1 {
 .marker-image {
   height: 40px; /* Altura ajustada para la imagen marcar.png */
 }
+
+/* Estilos específicos para la imagen de Climapoly */
+.board-image {
+  width: 65%;  /* Reducido al 60% del contenedor */
+  height: auto;  /* Mantiene la relac
